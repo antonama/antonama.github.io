@@ -453,12 +453,12 @@
 				multiplex: {
 				        // Example values. To generate your own, see the socket.io server instructions.
 				        secret: null, // null so the clients do not have control of the master presentation
-				        id: 'fd066d54a150492a', // id, obtained from socket.io server
-				        url: 'localhost:1948' // Location of socket.io server
+				        id: 'a9e10bc1b02efafe', // id, obtained from socket.io server
+				        url: 'epbyminw3993:1948' // Location of socket.io server
 				},
 
 			    dependencies: [
-			    	{ src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js', async: true },
+			    	{ src: 'plugin/socket/socket.io.min.js', async: true },
 			    	{ src: 'plugin/multiplex/client.js', async: true },
 				    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
 				    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
